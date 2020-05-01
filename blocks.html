@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html>
 
   <head>
-    <title>Hello world</title>
+    <title>Using inline-block for responsive layouts</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
 
@@ -11,9 +12,9 @@
     </nav>
     <main>
       <div class="container">
-        <h1>Using inline-block</h1>
+        <h1>Using inline-block for responsive layouts</h1>
         <p>
-          When creating responsive layouts using CSS, an option for developers is to use the :inline-block value attached to the display property. An issue with this option is the whitespace that emerges between the elements that are being styled.
+          <code>&lt;div&gt;</code> with <code>inline-block</code> property, with whitespace
         </p>
 
         <!-- Start bad-container -->
@@ -29,6 +30,10 @@
         </div>
         <!-- End bad-container -->
 
+        <p>
+          <code>&lt;div&gt;</code> with <code>inline-block</code> property, wrapped in container styled with <code>font-size:0;</code> that will remove whitespace
+        </p>
+        <!-- Start good-container -->
         <div class="good-container">
           <div class="container box"><span>Text</span></div>
           <div class="container box-moving"> </div>
@@ -39,6 +44,7 @@
           <div class="container box"> </div>
           <div class="container box"> </div>
         </div>
+        <!-- End good-container -->
 
       </div>
     </main>
