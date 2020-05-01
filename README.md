@@ -10,3 +10,4 @@ Resources
 * https://developer.mozilla.org/en-US/docs/Web/Tutorials
 * http://jmcglone.com/guides/github-pages/
 * https://help.github.com/en/github/working-with-github-pages
+* https://www.smashingmagazine.com/2013/07/choosing-a-responsive-image-solution/
