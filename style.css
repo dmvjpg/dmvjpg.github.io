@@ -43,8 +43,8 @@ blockquote {
   display: inline-block;
   overflow: hidden;
   background-color: crimson;
-  height: 3em;
-  width: 3em;
+  height: 15%;
+  width: 15%;
 }
 
 .box:hover, .box-moving:hover {
