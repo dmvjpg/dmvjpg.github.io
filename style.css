@@ -5,6 +5,22 @@ body {
 .container {
   width: 80%;
   margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: left;
+  border-bottom: 2px double coral;
+  padding-bottom: 0.4em;
+}
+
+blockquote {
+  width: 70%;
+  overflow: auto;
+  background-color: lightgray;
+  padding: 1em;
+  text-align: left;
 }
 
 /* 
@@ -32,8 +48,4 @@ body {
 
 .box:hover, .box-moving:hover {
   background-color: gold;
-}
-
-h1 {
-  font-size: 20px;
 }
