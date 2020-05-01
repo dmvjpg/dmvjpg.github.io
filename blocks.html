@@ -1,28 +1,47 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>Using inline-block</title>
-			
-			<link rel="stylesheet" href="./style.css">
-			
-			<meta name="viewport" content="width=device-width,initial-scale=1">
-			
-		</head>
-		<body>
-			<main>
-				<!-- Testing -->
-				<div class="container">
-					<h1 style="font-size: 15px;">Using inline-block</h1>
-					<div class="container box"><span>Text</span></div>
-					<div class="container box-moving"> </div>
-					<div class="container box"> </div>
-					<div class="container box"> </div>
-					<div class="container box"> </div>
-					<div class="container box"> </div>
-					<div class="container box"> </div>
-					<div class="container box"> </div>
-				</div>
-				
-			</main>
-		</body>
-	</html>
+<html>
+
+  <head>
+    <title>Hello world</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>Navigation:
+      <a href="/index.html">Home</a>
+    </nav>
+    <main>
+      <div class="container">
+        <h1>Using inline-block</h1>
+        <p>
+          When creating responsive layouts using CSS, an option for developers is to use the :inline-block value attached to the display property. An issue with this option is the whitespace that emerges between the elements that are being styled.
+        </p>
+
+        <!-- Start bad-container -->
+        <div class="bad-container">
+          <div class="container box"><span>Text</span></div>
+          <div class="container box-moving"> </div>
+          <div class="container box"> </div>
+          <div class="container box"> </div>
+          <div class="container box"> </div>
+          <div class="container box"> </div>
+          <div class="container box"> </div>
+          <div class="container box"> </div>
+        </div>
+        <!-- End bad-container -->
+
+        <div class="good-container">
+          <div class="container box"><span>Text</span></div>
+          <div class="container box-moving"> </div>
+          <div class="container box"> </div>
+          <div class="container box"> </div>
+          <div class="container box"> </div>
+          <div class="container box"> </div>
+          <div class="container box"> </div>
+          <div class="container box"> </div>
+        </div>
+
+      </div>
+    </main>
+  </body>
+
+</html>
