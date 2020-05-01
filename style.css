@@ -47,8 +47,8 @@ dmvjpg.github.io/blocks.html
   display: inline-block;
   overflow: hidden;
   background-color: crimson;
-  height: 10vw;
-  width: 10vw;
+  height: 7em;
+  width: 7em;
 }
 
 .box:hover, .box-moving:hover {
