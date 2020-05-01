@@ -16,12 +16,12 @@ h1 {
 }
 
 blockquote {
-  width: 70%;
+  width: auto;
   overflow: auto;
   background-color: lightgray;
   padding: 1em;
-  margin: 0 auto;
-  text-align: left;
+  margin: 1em auto;
+  text-align: left !important;
 }
 
 /* 
