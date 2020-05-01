@@ -43,12 +43,12 @@ dmvjpg.github.io/blocks.html
 }
 
 .box, .box-moving {
-  font-size: 1em! important;
+  font-size: 15px !important;
   display: inline-block;
   overflow: hidden;
   background-color: crimson;
-  height: 7em;
-  width: 7em;
+  height: 100px;
+  width: 100px;
 }
 
 .box:hover, .box-moving:hover {
