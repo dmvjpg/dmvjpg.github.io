@@ -1,70 +1,70 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Embedding Multimedia</title>
-		
-		<link rel="stylesheet" href="./style.css" />
-		
-		<meta name="viewport" content="width=device-width,initial-scale=1" />
-	</head>
-	<body>
-			<div class="container">
-				<div class="embed-box">
-				<!-- Start of embed-box -->
-				<div class="video" id="video">
-				<h1>Embedding video</h1>
-					
-					<p>Code for below:<br />
-						<blockquote><code>
-						&lt;video controls&gt; <br />
-						&lt;source src="INSERT URL HERE" type="video/mp4"&gt; <br />
-						&lt;/video&gt; <br />
-						</code></blockquote>
-					</p>
-					
-					<!-- For increased compatibility across web browsers, use both .webm and .mp4 video formats. -->
-					
-					<video controls height="300px" style="border-radius:20px;">
-					<source src="https://ia800300.us.archive.org/6/items/electricsheep-flock-244-72500-8/00244%3D72528%3D72528%3D72528.mp4" type="video/mp4">
-					<!-- embed webm version here -->
-					</video>
-					</div>
-				
-				<div class="audio" id="audio">
-				<h1>Embedding audio</h1>
-					<p>Code for below:<br />
-				  	<blockquote><code>
-						&lt;audio src="https://mydora.restorativland.org/songs/25/std_1945ec1978e4232b3effe3f5d1aed642.mp3" controls&gt; <br />
-						Track: Hammerheads - Manamans 4 Life Blood! - King Boogaloo <br />
-						&lt;/audio&gt; <br />
-						</code></blockquote>
-					</p>
-				
-					<!-- The audio code below allows the file to appear on the webpage -->
-					<audio src="https://mydora.restorativland.org/songs/25/std_1945ec1978e4232b3effe3f5d1aed642.mp3" controls>
-					Track: Hammerheads - Manamans 4 Life Blood! - King Boogaloo
-					</audio>
-					<br />Track: Hammerheads - Manamans 4 Life Blood! - King Boogaloo, with file from from <a href="https://mydora.restorativland.org/">Restorativland</a>
-				</div>
-				
-				<div class="svg" id="svg">
-				<h1>Embedding SVG in-line</h1>
-  				<p>Loading (loop 5 times)</p>
-  					<svg style="width:300px;">
-  						<rect height="5" width="300" fill="gainsboro" />
-  						<rect height="5" width="25" fill="black">
-  						  <animateTransform attributeName="transform"
-  						    type="scale"
-  						    from="1 1"
-  						    to="12 1"
-  						    dur="3s"
-  						    repeatCount="5" />
-  						</rect>
-  					</svg>
-				</div>
-				
-				<!-- End of embed-box -->
-				</div>
-			</div>
-	</body>
+
+  <head>
+    <title>Embedding Multimedia</title>
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head>
+
+  <body>
+    <nav>Navigation:
+      <a href="/index.html">Home</a>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="embed-box">
+
+          <!-- Embedding video -->
+          <div class="video" id="video">
+            <h1>Embedding video</h1>
+
+            Code for below:<br />
+            <blockquote><code>
+                &lt;video controls&gt; <br />
+                &lt;source src="INSERT URL HERE" type="video/mp4"&gt; <br />
+                &lt;/video&gt; <br />
+              </code></blockquote>
+
+            <!-- For increased compatibility across web browsers, use both .webm and .mp4 video formats. -->
+            <video controls height="300px" style="border-radius:20px;">
+              <source src="https://ia800300.us.archive.org/6/items/electricsheep-flock-244-72500-8/00244%3D72528%3D72528%3D72528.mp4" type="video/mp4">
+              <!-- embed webm version here -->
+            </video>
+          </div>
+
+          <!-- Embedding audio -->
+          <div class="audio" id="audio">
+            <h1>Embedding audio</h1>
+            Code for below:<br />
+            <blockquote><code>
+                &lt;audio src="https://mydora.restorativland.org/songs/25/std_1945ec1978e4232b3effe3f5d1aed642.mp3" controls&gt; <br />
+                Track: Hammerheads - Manamans 4 Life Blood! - King Boogaloo <br />
+                &lt;/audio&gt; <br />
+              </code></blockquote>
+
+            <!-- The audio code below allows the file to appear on the webpage -->
+            <audio src="https://mydora.restorativland.org/songs/25/std_1945ec1978e4232b3effe3f5d1aed642.mp3" controls>
+              Track: Hammerheads - Manamans 4 Life Blood! - King Boogaloo
+            </audio>
+            <br />Track: Hammerheads - Manamans 4 Life Blood! - King Boogaloo, with file from from <a href="https://mydora.restorativland.org/">Restorativland</a>
+          </div>
+
+          <!-- Embedding SVGs -->
+          <div class="svg" id="svg">
+            <h1>Embedding SVG in-line</h1>
+            <p>Loading (loop 5 times)</p>
+            <svg style="width:300px;">
+              <rect height="5" width="300" fill="gainsboro" />
+              <rect height="5" width="25" fill="black">
+                <animateTransform attributeName="transform" type="scale" from="1 1" to="12 1" dur="3s" repeatCount="5" />
+              </rect>
+            </svg>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </body>
+
 </html>
