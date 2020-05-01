@@ -46,6 +46,7 @@ dmvjpg.github.io/blocks.html
   font-size: 15px !important;
   display: inline-block;
   overflow: hidden;
+position: relative;
   background-color: crimson;
   height: 100px;
   width: 100px;
