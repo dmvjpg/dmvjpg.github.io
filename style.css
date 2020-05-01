@@ -1,0 +1,39 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* 
+:inline-block demo for
+/blocks.html
+*/
+
+.good-container {
+  font-size: 0;
+}
+
+.container p {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.box, .box-moving {
+  font-size: 15px;
+  display: inline-block;
+  overflow: hidden;
+  background-color: crimson;
+  height: 100px;
+  width: 100px;
+}
+
+.box:hover, .box-moving:hover {
+  background-color: gold;
+}
+
+h1 {
+  font-size: 20px;
+}
