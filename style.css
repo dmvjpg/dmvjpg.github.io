@@ -43,7 +43,7 @@ dmvjpg.github.io/blocks.html
 }
 
 .box, .box-moving {
-  font-size: 1em;
+  font-size: 1em! important;
   display: inline-block;
   overflow: hidden;
   background-color: crimson;
