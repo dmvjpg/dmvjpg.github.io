@@ -26,15 +26,20 @@ blockquote {
 
 /* 
 :inline-block demo for
-/blocks.html
+dmvjpg.github.io/blocks.html
 */
 
-.good-container {
+.test-box {
+  width: 100%;
+}
+
+.no-whitespace {
   font-size: 0;
 }
 
 .container p {
   font-size: 15px;
+  line-height: 20px;
 }
 
 .box, .box-moving {
@@ -42,8 +47,8 @@ blockquote {
   display: inline-block;
   overflow: hidden;
   background-color: crimson;
-  height: 8em;
-  width: 8em;
+  height: 10vw;
+  width: 10vw;
 }
 
 .box:hover, .box-moving:hover {
