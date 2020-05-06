@@ -12,6 +12,7 @@ Resources
 * https://help.github.com/en/github/working-with-github-pages
 * https://www.smashingmagazine.com/2013/07/choosing-a-responsive-image-solution/
 * Favicon generator: https://favicon.io/
+* https://opensource.com/article/17/12/learn-javascript
 
 Books
 ---
