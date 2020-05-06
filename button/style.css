@@ -1,0 +1,69 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 66.25%;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  color: lightgray;
+}
+
+nav a {
+  color: darkorange;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+div.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsla(0, 0%, 66%, 0.2);
+  width: 50vw;
+  height: 13vh;
+  text-align: center;
+  padding: 2%;
+}
+
+.orange {
+  border: 0;
+  box-shadow: 2px 2px 0 gold;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+button.orange {
+  background-color: darkorange;
+  font-size: 1.2rem;
+}
+
+input.orange {
+  background-color: hsla(0, 0%, 66%, 0.2);
+  font-size: 1.5rem;
+  width: 90%;
+}
+
+/* Actions */
+
+button.orange:hover {
+  background-color: orange;
+  box-shadow: 5px 5px 0 gold;
+}
+
+input.orange:hover {
+  background-color: hsla(0, 0%, 66%, 0.5);
+  box-shadow: 5px 5px 0 gold;
+}
+
+.orange:focus {
+  border: 0;
+  box-shadow: 5px 5px 0 gold;
+}
